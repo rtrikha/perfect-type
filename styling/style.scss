@@ -21,7 +21,7 @@
 }
 
 .hero {
-    margin-top: 8vh;
+	margin-top: 8vh;
 	.logo {
 		transform: scale(0.8);
 		text-align: center;
@@ -51,7 +51,7 @@
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
-		background-color: #D57A29;
+		background-color: #d57a29;
 		padding-top: 16px;
 		padding-bottom: 16px;
 		padding-left: 24px;
@@ -68,7 +68,7 @@
 		margin-right: 8px;
 
 		&:hover {
-			background-color: #B9681F;
+			background-color: #b9681f;
 		}
 
 		&:before {
@@ -84,8 +84,8 @@
 
 	.secondary-button {
 		-webkit-appearance: none;
-        -moz-appearance: none;
-        text-decoration: none;
+		-moz-appearance: none;
+		text-decoration: none;
 		background-color: #2e2e2e;
 		padding-top: 16px;
 		padding-bottom: 16px;
@@ -201,3 +201,138 @@
 		}
 	}
 }
+
+@media (max-width: 1020px) {
+	.hero {
+		margin-top: 6vh;
+		.monogram {
+            width: 50vw;
+		}
+		.subheading {
+			font-size: 16px;
+			width: 50%;
+		}
+	}
+
+	.description {
+		width: 80%;
+		margin-top: 8vh;
+	}
+}
+
+@media (max-width: 880px) {
+	.hero {
+		.subheading {
+			height: max-content;
+		}
+	}
+	.description {
+		width: 90%;
+
+		.smart-type {
+			width: 28%;
+		}
+		.line-height {
+			width: 28%;
+		}
+		.character-spacing {
+			width: 28%;
+		}
+	}
+}
+
+@media (max-width: 670px) {
+	.buttons {
+		margin-top: 4vh;
+		transform: scale(0.9);
+	}
+
+	.hero {
+		.subheading {
+			width: 90%;
+		}
+	}
+
+	.description {
+		width: 48%;
+		flex-direction: column;
+
+		.smart-type {
+			width: 100%;
+			text-align: center;
+		}
+		.line-height {
+			width: 100%;
+			margin-top: 6vh;
+			text-align: center;
+		}
+		.character-spacing {
+			width: 100%;
+			margin-top: 6vh;
+			text-align: center;
+			margin-bottom: 10vh;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.buttons {
+		margin-top: 6vh;
+		transform: scale(0.9);
+        flex-direction: column;
+        
+		.primary-button {
+			margin-right: 0px;
+		}
+		.secondary-button {
+			margin: 0 auto;
+			margin-top: 2vh;
+		}
+	}
+
+	.hero {
+		text-align: center;
+		.subheading {
+	        width: 90%;
+	        font-size: 14px;
+        }
+        .monogram {
+            width: 70vw;
+		}
+	}
+
+	.description {
+		width: 48%;
+		flex-direction: column;
+
+		.smart-type {
+			width: 100%;
+			text-align: center;
+		}
+		.line-height {
+			width: 100%;
+			margin-top: 6vh;
+			text-align: center;
+		}
+		.character-spacing {
+			width: 100%;
+			margin-top: 6vh;
+			text-align: center;
+			margin-bottom: 10vh;
+		}
+	}
+}
+
+// @media (max-width: 420px) {
+// 	.hero {
+// 		text-align: center;
+// 		.subheading {
+// 			width: 90%;
+// 		}
+// 		.logo {
+// 			.monogram {
+// 				transform: scale(0.6);
+// 			}
+// 		}
+// 	}
+// }

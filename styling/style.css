@@ -59,7 +59,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #D57A29;
+  background-color: #d57a29;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 24px;
@@ -79,7 +79,7 @@
 }
 
 .buttons .primary-button:hover {
-  background-color: #B9681F;
+  background-color: #b9681f;
 }
 
 .buttons .primary-button:before {
@@ -226,5 +226,126 @@
   font-size: 14px;
   font-family: AV-bold;
   letter-spacing: 0.1px;
+}
+
+@media (max-width: 1020px) {
+  .hero {
+    margin-top: 6vh;
+  }
+  .hero .monogram {
+    width: 50vw;
+  }
+  .hero .subheading {
+    font-size: 16px;
+    width: 50%;
+  }
+  .description {
+    width: 80%;
+    margin-top: 8vh;
+  }
+}
+
+@media (max-width: 880px) {
+  .hero .subheading {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .description {
+    width: 90%;
+  }
+  .description .smart-type {
+    width: 28%;
+  }
+  .description .line-height {
+    width: 28%;
+  }
+  .description .character-spacing {
+    width: 28%;
+  }
+}
+
+@media (max-width: 670px) {
+  .buttons {
+    margin-top: 4vh;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  .hero .subheading {
+    width: 90%;
+  }
+  .description {
+    width: 48%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .description .smart-type {
+    width: 100%;
+    text-align: center;
+  }
+  .description .line-height {
+    width: 100%;
+    margin-top: 6vh;
+    text-align: center;
+  }
+  .description .character-spacing {
+    width: 100%;
+    margin-top: 6vh;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .buttons {
+    margin-top: 6vh;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .buttons .primary-button {
+    margin-right: 0px;
+  }
+  .buttons .secondary-button {
+    margin: 0 auto;
+    margin-top: 2vh;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero .subheading {
+    width: 90%;
+    font-size: 14px;
+  }
+  .hero .monogram {
+    width: 70vw;
+  }
+  .description {
+    width: 48%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .description .smart-type {
+    width: 100%;
+    text-align: center;
+  }
+  .description .line-height {
+    width: 100%;
+    margin-top: 6vh;
+    text-align: center;
+  }
+  .description .character-spacing {
+    width: 100%;
+    margin-top: 6vh;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
