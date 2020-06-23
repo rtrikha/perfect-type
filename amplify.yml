@@ -1,0 +1,37 @@
+version: 0.1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install
+    build:
+      commands:
+      - npm run build
+  artifacts:
+    baseDirectory: dist
+    files:
+      - '**/*'
+  customHeaders:
+    - pattern: '**/*.js'
+      headers:
+        - key: 'Cache-Control'
+          value: 'public,max-age=31536000,immutable'
+    - pattern: '**/*.css'
+      headers:
+        - key: 'Cache-Control'
+          value: 'public,max-age=31536000,immutable'
+    - pattern: '**/*.jpg'
+      headers:
+        - key: 'Cache-Control'
+          value: 'public,max-age=31536000,immutable'
+    - pattern: '**/*.png'
+      headers:
+        - key: 'Cache-Control'
+          value: 'public,max-age=31536000,immutable'
+    - pattern: '**/*.svg'
+      headers:
+        - key: 'Cache-Control'
+          value: 'public,max-age=31536000,immutable'
+  cache:
+    paths:
+      - node_modules/**/*

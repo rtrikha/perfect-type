@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>monogram</title>
+    <desc>Created with Sketch.</desc>
+    <g id="shifter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-122.000000, -62.000000)">
+            <g id="monogram" transform="translate(122.000000, 62.000000)">
+                <g id="flex-basis" fill="#2E2E2E">
+                    <g id="0">
+                        <g id="frame">
+                            <rect id="Rectangle" x="11.4159292" y="0" width="3.18584071" height="60"></rect>
+                            <polygon id="Rectangle-Copy-2" transform="translate(29.934652, 13.005380) rotate(90.000000) translate(-29.934652, -13.005380) " points="28.3452015 -16.9292723 31.5241026 -16.9292723 31.5241026 42.9400318 28.3452015 42.9400318"></polygon>
+                            <polygon id="Rectangle-Copy-3" transform="translate(30.466782, 46.987681) rotate(90.000000) translate(-30.466782, -46.987681) " points="28.8773315 17.5828455 32.0562326 17.5828455 32.0562326 76.3925158 28.8773315 76.3925158"></polygon>
+                            <rect id="Rectangle-Copy" x="45.3982301" y="0" width="3.18584071" height="60"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="logo" transform="translate(14.601770, 14.601770)" fill="#FFFFFF">
+                    <rect id="Rectangle" x="0" y="0" width="30.7964602" height="4.24778761"></rect>
+                    <polygon id="Rectangle-Copy-4" transform="translate(15.398230, 15.398230) rotate(90.000000) translate(-15.398230, -15.398230) " points="1.77635684e-15 13.2743363 30.7964602 13.2743363 30.7964602 17.5221239 1.77635684e-15 17.5221239"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

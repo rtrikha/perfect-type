@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Perfect Type</title>
+		<link rel="stylesheet" href="./styling/style.css" />
+	</head>
+	<body>
+		<div class="main-wrapper">
+			<div class="top-nav">
+				<img id="monogram" src="/resources/logo/monogram.svg" alt="" />
+			</div>
+		
+			<div class="hero">
+				<div class="logo">
+					<img src="/resources/logo/perfecttype.svg" alt="" />
+				</div>
+				<div id="subheading" class="subheading">
+					Endgame to your typography hassle. A sketch plugin for designers to create perfect typography every single time.
+				</div>
+			</div>
+			<div class="buttons">
+				<a onmouseover="lineHeightOver();characterSpacingOver()" onmouseout="lineHeightOut();characterSpacingOut()" class="primary-button">Download for Sketch</a>
+				<a class="secondary-button" href="https://github.com/rtrikha/perfect-type" target="_blank">View on GitHub</a>
+			</div>
+			<div class="description">
+				<div class="smart-type">
+					<img src="/resources/logo/smart type.svg" alt="" />
+					<div id="smart-type-heading" class="description-heading">Smart Type</div>
+					<div id="smart-type-subheading" class="description-subheading">Automatically calibrates both the attributes for you</div>
+					<div id="smart-type-command" class="description-command">control + shift + T</div>
+				</div>
+
+				<div class="line-height">
+					<img src="/resources/logo/line height.svg" alt="" />
+					<div id="line-height-heading" class="description-heading">Line Height</div>
+					<div id="line-height-subheading" class="description-subheading">Add smart line height for better legibility of font</div>
+					<div id="line-height-command" class="description-command">control + shift + L</div>
+				</div>
+
+				<div class="character-spacing">
+					<img src="/resources/logo/character spacing.svg" alt="" />
+					<div id="character-spacing-heading" class="description-heading">Character Spacing</div>
+					<div id="character-spacing-subheading" class="description-subheading">Perfectly spaced letter for better tracking</div>
+					<div id="character-spacing-command" class="description-command">control + shift + C</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/script.js"></script>
+</html>

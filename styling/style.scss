@@ -1,0 +1,203 @@
+@font-face {
+	font-family: AV-bold;
+	src: url(/resources/fonts/AV-Bold.ttf);
+}
+@font-face {
+	font-family: AV-medium;
+	src: url(/resources/fonts/AV-Medium.ttf);
+}
+
+* {
+	margin: 0;
+	background-color: #000;
+	font-family: AV-medium;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.main-wrapper {
+	width: 88vw;
+	margin: 0 auto;
+}
+
+.hero {
+    margin-top: 8vh;
+	.logo {
+		transform: scale(0.8);
+		text-align: center;
+	}
+
+	.subheading {
+		font-family: AV-medium;
+		color: #a6a6a6;
+		line-height: 22px;
+		letter-spacing: 0.5px;
+		height: 8vh;
+		font-size: 18px;
+		width: 40%;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 2vh;
+	}
+}
+
+.buttons {
+	display: flex;
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 6vh;
+
+	.primary-button {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background-color: #D57A29;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		padding-left: 24px;
+		padding-right: 24px;
+		border: none;
+		display: flex;
+		font-size: 16px;
+		color: #fff;
+		cursor: pointer;
+		text-align: center;
+		font-family: AV-bold;
+		line-height: 32px;
+		border-radius: 4px;
+		margin-right: 8px;
+
+		&:hover {
+			background-color: #B9681F;
+		}
+
+		&:before {
+			display: block;
+			content: ' ';
+			background-image: url('/resources/logo/sketch.svg');
+			background-size: 28px 28px;
+			height: 28px;
+			width: 28px;
+			margin-right: 1vw;
+		}
+	}
+
+	.secondary-button {
+		-webkit-appearance: none;
+        -moz-appearance: none;
+        text-decoration: none;
+		background-color: #2e2e2e;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		padding-left: 24px;
+		padding-right: 24px;
+		border: none;
+		display: flex;
+		font-size: 16px;
+		color: #fff;
+		cursor: pointer;
+		text-align: center;
+		font-family: AV-bold;
+		line-height: 32px;
+		border-radius: 4px;
+
+		&:hover {
+			background-color: #202020;
+		}
+
+		&:before {
+			display: block;
+			content: ' ';
+			background-image: url('/resources/logo/github.svg');
+			background-size: 28px 28px;
+			height: 28px;
+			width: 28px;
+			margin-right: 1vw;
+		}
+	}
+}
+
+.top-nav {
+	margin-top: 6vh;
+
+	#monogram {
+		transform: scale(0.7);
+	}
+}
+
+.description {
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 12vh;
+	.smart-type {
+		width: 24%;
+		.description-heading {
+			font-family: AV-bold;
+			font-size: 16px;
+			margin-top: 2vh;
+			letter-spacing: 0.2px;
+		}
+		.description-subheading {
+			font-size: 14px;
+			color: #a6a6a6;
+			margin-top: 1vh;
+			margin-bottom: 1vh;
+			line-height: 19px;
+			letter-spacing: 0.2px;
+		}
+		.description-command {
+			font-size: 14px;
+			font-family: AV-bold;
+			letter-spacing: 0.1px;
+		}
+	}
+	.line-height {
+		width: 24%;
+
+		.description-heading {
+			font-family: AV-bold;
+			font-size: 16px;
+			margin-top: 2vh;
+			letter-spacing: 0.2px;
+		}
+		.description-subheading {
+			font-size: 14px;
+			color: #a6a6a6;
+			margin-top: 1vh;
+			margin-bottom: 1vh;
+			line-height: 19px;
+			letter-spacing: 0.2px;
+		}
+		.description-command {
+			font-size: 14px;
+			font-family: AV-bold;
+			letter-spacing: 0.1px;
+		}
+	}
+	.character-spacing {
+		width: 24%;
+
+		.description-heading {
+			font-family: AV-bold;
+			font-size: 16px;
+			margin-top: 2vh;
+			letter-spacing: 0.2px;
+		}
+		.description-subheading {
+			font-size: 14px;
+			color: #a6a6a6;
+			margin-top: 1vh;
+			margin-bottom: 1vh;
+			line-height: 19px;
+			letter-spacing: 0.2px;
+		}
+		.description-command {
+			font-size: 14px;
+			font-family: AV-bold;
+			letter-spacing: 0.1px;
+		}
+	}
+}
