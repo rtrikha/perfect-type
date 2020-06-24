@@ -1,10 +1,10 @@
 {
     "name": "perfect-type",
     "version": "1.0.0",
-    "description": "Personal workbench",
+    "description": "Endgame to your typography hassle. A sketch plugin for designers to create perfect typography every single time",
     "author": "Raunak Trikha",
     "license": "MIT",
-    "homepage": "https://2dots.xyz",
+    "homepage": "https://perfecttype.xyz",
     "scripts": {
         "clean": "rimraf dist/{css/*,js/*,resources/*,*.html}",
         "autoprefixer": "postcss -u autoprefixer -r dist/styling/*",
@@ -12,12 +12,12 @@
         "lint": "eslint src/js || true",
         "lint-scss": "stylelint styling/*.scss --syntax scss || true",
         "uglify": "mkdirp dist/js -p && uglifyjs js/*.js -m -c -o dist/js/*.js",
-        "uglifycss": "csso dist/styling/style.css -o dist/styling/style.css",
+        "uglifycss": "csso dist/styling/main.css -o dist/styling/main.css",
         "copyjs": "copyfiles ./js/*.js dist/",
         "copyhtmls": "copyfiles ./*.html dist/",
         "copyresources": "cp -R resources dist",
         "serve": "browser-sync start --startPath /dist --server --files \"dist/styling/*.css, dist/js/*.js, dist/*.html, !node_modules/**/*.html\"",
-        "build:css": "run-s lint-scss scss uglifycss",
+        "build:css": "run-s lint-scss scss autoprefixer uglifycss",
         "build:js": "run-s copyjs",
         "build:others": "run-s copyhtmls copyresources",
         "build": "run-s build:*",
@@ -27,7 +27,7 @@
         "watch": "run-p serve watch:*"
     },
     "devDependencies": {
-        "autoprefixer": "^9.0.1",
+        "autoprefixer": "^9.8.0",
         "browser-sync": "^2.12.8",
         "copyfiles": "^2.2.0",
         "csso-cli": "^3.0.0",
