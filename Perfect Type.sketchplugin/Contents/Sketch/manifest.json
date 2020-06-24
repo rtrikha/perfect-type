@@ -1,0 +1,46 @@
+{
+  "author" : "Raunak Trikha",
+  "identifier" : "com.raunak-trikha.perfect-type",
+  "version" : "1.0.1",
+  "description" : "Always get the perfect type",
+  "authorEmail" : "raunakstrikha@gmail.com",
+  "name" : "Perfect Type",
+  "icon": "perfectType.png",
+  "commands" : [
+    {
+      "name" : "Line Height",
+      "script" : "lineHeight.js",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "perfectType.lineHeight",
+      "shortcut": "ctrl shift l"
+    },
+    {
+      "name" : "Character Spacing",
+      "script" : "characterSpacing.js",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "perfectType.characterSpacing",
+      "shortcut": "ctrl shift c"
+    },   
+    {
+      "name" : "Smart Type",
+      "script" : "smartType.js",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "perfectType.smartType",
+      "shortcut": "ctrl shift t"
+    }
+  ],
+  "menu" : {
+    "title" : "Perfect Type",
+    "items" : [
+      "perfectType.lineHeight",
+      "perfectType.characterSpacing",
+      "perfectType.smartType"
+    ]
+  }
+}
