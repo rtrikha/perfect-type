@@ -120,6 +120,9 @@
 
 .top-nav {
 	margin-top: 6vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
 	#monogram {
 		transform: scale(0.7);
