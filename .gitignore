@@ -1,25 +1,16 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# build artifacts
+perfect-type.sketchplugin
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# npm
+node_modules
+.npm
+npm-debug.log
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# mac
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# WebStorm
+.idea
 
-/dist
+# sketch
+# sketch-assets

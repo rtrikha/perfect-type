@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="24px" viewBox="0 0 27 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-13.4721706%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFA016" offset="0%"></stop>
+            <stop stop-color="#FF8714" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.598784025,7.03432407 L7.56293378,0.269150029 C7.74061023,0.0965500452 7.97856489,-2.87563529e-16 8.22627375,0 L18.9897262,0 C19.237435,-1.26674871e-15 19.4753897,0.0965500452 19.6530662,0.269150029 L26.6123216,7.02956959 C26.9516615,7.35921409 26.9762449,7.89587731 26.6684635,8.25516502 L14.0105613,23.0313283 C13.7691108,23.3131848 13.3448867,23.3459404 13.0630301,23.1044899 C13.0354151,23.0808336 13.0097656,23.054975 12.9863345,23.0271687 L0.537929976,8.25437332 C0.234883864,7.89474183 0.261455415,7.36201472 0.598784025,7.03432407 Z" id="path-2"></path>
+    </defs>
+    <g id="shifter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-496.000000, -532.000000)">
+            <g id="Button" transform="translate(464.000000, 512.000000)">
+                <g id="text" transform="translate(32.000000, 20.000000)">
+                    <g id="Group">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <polygon id="Path-6" fill="#FFBA26" mask="url(#mask-3)" points="0.112 7.39199998 27.3279999 7.39199998 27.3279999 -0.224 0.112 -0.224"></polygon>
+                        <rect id="Rectangle" fill="#FFFFFF" opacity="0.159999996" mask="url(#mask-3)" x="7.72799998" y="-0.224" width="11.592" height="7.61599998"></rect>
+                        <polygon id="Path-7" fill="#FFFFFF" opacity="0.159999996" mask="url(#mask-3)" points="7.72799998 7.39199998 19.32 7.39199998 13.552 25.0879999"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
